@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.nav {
+	/* css ulList的标记更改 */
+	list-style-type: none;
+	background-color:#333;
+	overflow:hidden;
+}
+
+.navEle{   
+    float:left;   
+}   
+
+.navEle a{   
+    display:inline-block;   
+    color:white;   
+    padding:5px 10px;   
+    text-decoration:none;   
+}
+
+
+.navEle a:hover, .DemoBtn:hover {
+	background-color:#111;
+}
+
+#Demo{  
+    display:inline-block;   
+}
+
+.Demo-content{   
+    min-width:200px;   
+    background-color:#F9F9F9;   
+    position:absolute;   
+    display:none;  
+    box-shadow:0px 8px 15px 0px rgba(0,0,0,0.2);   
+
+    z-index: 100;   
+}   
+
+.Demo-content a{   
+    color:black;   
+    padding:12px 16px;   
+    text-decoration:none;   
+    display:block;
+}
+
+.Demo-content a:hover{   
+    background-color:#F1F1F1;   
+}
+
+#Demo:hover .Demo-content{   
+    display: block;   
+}   
+/*React_TodoList*/
+.destroy {
+	margin-left: 10px; 
+	opacity: 0.5;
+	border-radius: 10px;
+	background-color: white;
+}
+
+
+.counterBtn button {
+    display: inline-block;
+    background-color: white;
+    opacity: 0.8;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-left: 15px;
+    padding:5px 5px;
+}
+
+.counterBtn button:nth-child(1),
+.counterBtn button:nth-child(2) {
+    width: 50px;
+}
+
+
+.reduxtodolist {
+    position: relative;;
+    margin-left: 50px;
+}
